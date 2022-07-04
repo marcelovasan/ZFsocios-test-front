@@ -1,0 +1,112 @@
+.main-banner {
+    background: radial-gradient(79.43% 251.58% at 23.18% 73.07%, rgb(5, 42, 109) 0, #0d4606 44.41%, #f007c9 56.43%, #c2104c 69.58%, #c9242c 100%, #049772 0);
+    color: white;
+    padding: 2rem 1rem 0;
+}
+
+/*Start Title and description*/
+.title {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.5em;
+}
+
+.descripcion {
+    font-size: 0.8rem;
+}
+
+.line-2 {
+    color: #9164cc;
+}
+
+@media screen and (min-width:1024px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .descripcion {
+        font-size: 1rem;
+    }
+}
+
+/*end description*/
+
+/*Start: Countdown*/
+.countdown {
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and(min-width:1024px) {
+    .countdown {
+        justify-content: flex-start;
+    }
+}
+
+.countdown-item {
+    padding: 0 .75rem;
+    align-items: center;
+    position: relative;
+}
+
+.countdown-item:not(:last-of-type):before {
+    position: absolute;
+    right: 0;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 50%;
+    background: white;
+    opacity: .5;
+}
+
+.countdown-number {
+    font-size: 1.75em;
+    font-weight: bold;
+    margin-right: .25rem;
+    color: #9164cc;
+}
+
+.countdown-letter {
+    opacity: .5;
+}
+
+/*end: Countdown*/
+
+/*Start Form*/
+.form-container {
+    height: 2.5rem;
+
+}
+
+.form {
+    display: inline-flex;
+}
+
+.input {
+    line-height: 2.5rem;
+    width: 15rem;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, .4);
+    padding: 0 .5rem;
+    border-radius: .25rem 0 0 .25rem;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, .5);
+}
+
+.button {
+    padding: 0 1rem;
+    border-radius: 0 .25rem .25rem 0;
+    border: none;
+}
+
+.form-hint {
+    font-size: .7rem;
+    margin: 0 0 1rem;
+
+}
+
+/*end form*/

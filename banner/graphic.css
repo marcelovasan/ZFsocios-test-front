@@ -1,0 +1,10 @@
+.graphic {
+    position: relative;
+    display: grid;
+    padding-top: 3rem;
+}
+
+.absolute {
+    position: absolute;
+    display: none;
+}
