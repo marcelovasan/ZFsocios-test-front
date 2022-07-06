@@ -85,6 +85,17 @@
 
 /*end: Countdown*/
 
+/* ? ----- Cuenta Regresiva ----- */
+
+
+#cuenta {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ? ---------------------------- */
+
 /*Start Form*/
 .form-container {
     height: 2.5rem;
