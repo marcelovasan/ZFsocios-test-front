@@ -41,8 +41,12 @@
 
 /*end description*/
 
+
+
 /*Start: Countdown*/
-.countdown {
+
+#cuenta {
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0.9rem;
@@ -50,7 +54,7 @@
 }
 
 @media screen and (min-width:1024px) {
-    .countdown {
+    .cuenta {
         justify-content: flex-start;
     }
 }
@@ -84,17 +88,6 @@
 }
 
 /*end: Countdown*/
-
-/* ? ----- Cuenta Regresiva ----- */
-
-
-#cuenta {
-    display: flex;
-    justify-content: center;
-}
-
-
-/* ? ---------------------------- */
 
 /*Start Form*/
 .form-container {

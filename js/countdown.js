@@ -24,7 +24,7 @@ simplyCountdown('#cuenta', {
 		return;
 	}, //Callback on countdown end, put your own function here
 	refresh: 1000, // default refresh every 1s
-	sectionClass: 'flex', //section css class
+	sectionClass: 'countdown-item', //section css class
 	amountClass: 'countdown-number', // amount css class
 	wordClass: 'countdown-letter', // word css class
 	zeroPad: false,
