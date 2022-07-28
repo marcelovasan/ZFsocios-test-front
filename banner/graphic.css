@@ -35,7 +35,7 @@
     width: 100%;
     height: 100%;
     /*Modo de funcion screen o ir probando*/
-    mix-blend-mode: color;
+    mix-blend-mode: normal;
 }
 
 
@@ -43,11 +43,11 @@
     animation: turn1 10s linear infinite;
 }
 
-.graphic-circles-2 {
-    animation: turn1 20s linear infinite;
+.graphic-circle-2 {
+    animation: turn2 20s linear infinite;
 }
 
-.graphic-circles-1 {
+.graphic-circle-1 {
     animation: turn2 16s linear infinite;
 }
 
